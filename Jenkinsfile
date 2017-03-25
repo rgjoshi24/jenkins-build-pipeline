@@ -17,9 +17,10 @@ pipeline{
 	}
 	
 	post{
-		always{
-			archive 'dist/*.jar'
-		}
+		
+	     always{
+		archive 'dist/*.jar'
+	     }
 	}
 
 }
